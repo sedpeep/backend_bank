@@ -1,0 +1,107 @@
+{
+  "UNKNOWN_ERROR": {
+    "status": "error",
+    "message": "An unknown error occurred. Please try again later.",
+    "statusCode": 400
+  },
+  "PAGE_NOT_FOUND": {
+    "status": "error",
+    "message": "The requested page was not found. Please try again later.",
+    "statusCode": 404
+  },
+  "INVALID_ARGUMENTS": {
+    "status": "error",
+    "message": "Invalid arguments.",
+    "statusCode": 404
+  },
+  "UNAUTHORIZED": {
+    "status": "fail",
+    "message": "You are unauthorized to view this page.",
+    "statusCode": 400
+  },
+  "INCOMPLETE_ARGS": {
+    "status": "error",
+    "message": "Incomplete arguments provided. Please try again later.",
+    "statusCode": 401
+  },
+  "WRONG_CREDENTIALS": {
+    "status": "error",
+    "message": "Wrong credentials entered.",
+    "statusCode": 400
+  },
+  "USER_FIELD_ALREADY_EXISTS": {
+    "status": "error",
+    "message": "User with this %s already exists.",
+    "statusCode": 400
+  },
+  "AGE_LESS_THAN_18": {
+    "status": "error",
+    "message": "You must be 18 years old to have a bank account.",
+    "statusCode": 400
+  },
+  "ACCOUNT_NOT_FOUND": {
+    "status": "error",
+    "message": "Account not found.",
+    "statusCode": 400
+  },
+  "ACCOUNT_CLOSED": {
+    "status": "error",
+    "message": "The account is closed.",
+    "statusCode": 400
+  },
+  "BENEFICIARY_ALREADY_EXISTS": {
+    "status": "error",
+    "message": "Beneficiary already exists.",
+    "statusCode": 400
+  },
+  "BENEFICIARY_ITSELF": {
+    "status": "error",
+    "message": "You cannot add yourself as your beneficiary.",
+    "statusCode": 400
+  },
+  "MINIMUM_TRANSACTION_ERROR": {
+    "status": "error",
+    "message": "You can only make transaction of atleast Rs. 10.",
+    "statusCode": 400
+  },
+  "NOT_ENOUGH_BALANCE": {
+    "status": "error",
+    "message": "You do not have enough balance to make this transaction.",
+    "statusCode": 400
+  },
+  "LIMITED_REACHED": {
+    "status": "error",
+    "message": "Daily limit reached.",
+    "statusCode": 400
+  },
+  "TICKET_DOESNOT_EXISTS": {
+    "status": "error",
+    "message": "Ticket does not exist.",
+    "statusCode": 400
+  },
+  "TICKET_ALREADY_RESOLVED": {
+    "status": "error",
+    "message": "The ticket is already resolved.",
+    "statusCode": 400
+  },
+  "CARD_TYPE_ALREADY_EXISTS": {
+    "status": "error",
+    "message": "User already has an active card of type.",
+    "statusCode": 400
+  },
+  "NO_ACTIVE_CARD": {
+    "status": "error",
+    "message": "No active card found.",
+    "statusCode": 400
+  },
+  "WRONG_CARD_DETAILS": {
+    "status": "error",
+    "message": "Wrong card details entered.",
+    "statusCode": 400
+  },
+  "CARD_EXPIRED": {
+    "status": "error",
+    "message": "The card you entered has expired.",
+    "statusCode": 400
+  }
+}
